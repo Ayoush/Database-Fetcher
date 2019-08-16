@@ -1,0 +1,1 @@
+Mix.shell.cmd("psql #{:discuss_dev} postgres -c 'select * from topics'")
